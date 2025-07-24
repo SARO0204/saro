@@ -1,0 +1,65 @@
+p{
+    color: red;
+}
+
+.saro{
+    color: darkviolet;
+}
+
+#two{
+    color:navy;
+}
+
+.s{
+    border: 1px solid red;
+}
+
+#p{
+    border: 1px solid red;
+}
+
+div~p{
+    color: black;
+}
+
+h1:hover{
+    content: url("./spiderman.webp");
+}
+
+div:hover p{
+    display: block;
+}
+
+a:visited{
+    color: red;
+}
+
+h2:hover::after{
+    content:"Selvaraj"
+}
+
+h3:hover::before{
+    content:"Hello"
+}
+
+h1::first-line{
+    color: red;
+    font-size: 50px;
+    background-color: yellow;
+}
+
+h2::first-letter{
+    color: red;
+    font-size: 50px;
+    background-color: yellow;
+}
+
+h3::first-letter{
+    color: red;
+    font-size: 50px;
+    background-color: yellow;
+}
+
+a[target="_blank"]{
+    background-color: black;
+}
